@@ -11,7 +11,7 @@ int number = rand.Next(minRandom, maxRandom);
 
 Console.WriteLine("N = " + number);
 
-for (int i = minCount; i < maxCount; i += number)
+for (int i = 0; i < maxCount; i += number)
 {
     if (i >= minCount)
     {
