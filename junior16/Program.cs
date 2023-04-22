@@ -1,13 +1,14 @@
 ﻿int minCount = 100;
 int maxCount = 999;
+
 int minRandom = 1;
 int maxRandom = 28;
 
 int totalCount = 0;
 
-Random rand = new Random();
+Random random = new Random();
 
-int number = rand.Next(minRandom, maxRandom);
+int number = random.Next(minRandom, maxRandom);
 
 Console.WriteLine("N = " + number);
 
